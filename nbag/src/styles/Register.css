@@ -1,0 +1,115 @@
+/* heading */
+.heading-container{} 
+.heading-tc{
+    width: 20%;
+} 
+.heading-en{
+    width:31%;
+}
+/* common text */
+.common-text{
+    width: 15%;
+}
+.common-input{
+    width: 60%;
+}
+/* common*/
+.common-row-height{
+    height: 4%;
+}
+.common-row-width{
+    width: 75%;
+    height: 100%;
+    justify-content: space-between;
+}
+/* tc */
+.mobile-text-container-tc,.email-text-container-tc{
+    width: 28%;
+}
+/* en */
+.fname-text-container-en{
+    width: 30%;
+}
+.lname-text-container-en{
+    width: 30%;
+}
+.birth-text-container-en{
+    width: 24%;
+}
+.mobile-text-container-en{
+    width: 22%;
+}
+.email-text-container-en{
+    width: 23%;
+}
+.birth-input{
+    justify-content: space-between;
+}
+.common-birth{
+    width: 27%;
+}
+.mobile{
+    justify-content: space-between;
+}
+.region-container{
+    width: 35%;
+}
+.mobile-input-container{
+    width: 60%;
+}
+/* tnc */
+.tnc{
+    justify-content: space-between;
+}
+.tnc-check-container{
+    width: 5%;
+}
+.tnc-text-container{
+    width: 90%;
+}
+.tnc-check-input{
+    position: relative;
+    border: none;
+    width: 10px;
+    height: 10px;
+    -webkit-appearance: none;
+    -moz-appearance:    none;
+    -ms-appearance:    none;
+    appearance:         none;
+}
+.checkmark{
+    position: absolute;
+    top:0;
+    left:0;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border:1px solid #3e261c;
+    background-color: white;
+    pointer-events: none;
+}
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    display: none;
+}
+/* Show the checkmark when checked */
+.tnc-check-input:checked ~ .checkmark:after {
+    display: block;
+}
+/* Style the checkmark/indicator */
+.checkmark:after {
+    margin-left:3px;
+    width: 2px;
+    height: 8px;
+    border: solid #3e261c;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+/* btn_reg */
+.btn-register{
+    width: 40%;
+}
+.btn-register-container{}

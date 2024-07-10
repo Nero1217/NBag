@@ -1,0 +1,41 @@
+.passage1{
+    width: 20%;
+}
+.passage1-en{
+    width: 40%;
+}
+.passage2{
+    width: 50%;
+}
+.passage2-en{
+    width: 60%;
+}
+.passage3{
+    width: 50%;
+}
+.passage3-en{
+    width: 70%;
+}
+.qna-input-container{
+    justify-content: flex-end;
+}
+.qna-input{
+    width: 30%;
+}
+.btn-submit{
+    width: 40%;
+}
+.qna-container{
+    height: 20%;
+}
+.qna{
+    width: 70%;;
+    height: 100%;
+    background-attachment: local;
+    background-image: linear-gradient(to right, #ffffff00 10px, transparent 10px), linear-gradient(to left, #ffffff00 10px, transparent 10px), repeating-linear-gradient(#ffffff00, #ffffff00 50px, #c2c2c2 48px, #c2c2c2 52px, white 40px);
+    background-color: transparent;
+    line-height: 52px;
+    font-size: 14px;
+    border: 0;
+    resize: none;
+}

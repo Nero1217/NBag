@@ -1,0 +1,17 @@
+.passage1{
+    width: 40%;
+}
+.passage2{
+    width: 80%;
+}
+.passage2-en{
+    width: 50%;
+}
+.redeem input{
+    width: 250px;
+    height: 40px;
+    font-size: 18px;
+}
+.btn-submit{
+    width: 40%;
+}

@@ -1,0 +1,39 @@
+.heading{
+    width: 70%;
+}
+.bags-container{
+    height: 40%;
+}
+.bags{
+    justify-content: space-evenly;
+}
+.bag-container{
+    width: 25%;
+}
+.passage2-container{
+    height: 10%;
+}
+.passage2-img-container{
+    margin-left: 10%;
+    display: inline-block;
+    width: 25%;
+}
+.passage2-img{
+    width: 100%;
+}
+.passage2-img2-container{
+    margin-left: 5%;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    color:white;
+    position: relative;
+}
+.passage2-img2{
+    position: absolute;
+    top:50%;
+    transform: translateY(-65%);
+   font-size: 20px;
+   color:white;
+   
+}
