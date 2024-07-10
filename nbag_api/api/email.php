@@ -17,8 +17,8 @@ try {
     $mail->isSMTP();                             // 使用SMTP
     $mail->Host = 'smtp.gmail.com';               // SMTP服務器
     $mail->SMTPAuth = true;                      // 允許 SMTP 認證
-    $mail->Username = 'daoyay77@gmail.com';     // SMTP 用戶名  即郵箱的用戶名
-    $mail->Password = 'igic rkia svpa hbuf';             // SMTP 密碼  部分郵箱是授權碼
+    $mail->Username = '';     // SMTP 用戶名  即郵箱的用戶名
+    $mail->Password = '';             // SMTP 密碼  部分郵箱是授權碼
     $mail->SMTPSecure = 'ssl';                    // 允許 TLS 或者ssl協議
     $mail->Port = 465;                            // 服務器端口 25 或者465 具體要看郵箱服務器支持
     $mail->SMTPOptions = array(
@@ -29,7 +29,7 @@ try {
         )
     );
     //Recipients
-    $mail->setFrom('daoyay77@gmail.com', 'Nero');
+    $mail->setFrom('', '');
     $mail->addAddress($email);     //Add a recipient
     //$mail->addAddress('ellen@example.com');  // 可添加多個收件人
     //$mail->addReplyTo('xxxx@163.com', 'info'); //回覆的時候回覆給哪個郵箱 建議和發件人一致
@@ -44,7 +44,7 @@ try {
     $mail->isHTML(true);                                  // 是否以HTML文檔格式發送  發送後客戶端可直接顯示對應HTML內容
     $mail->Subject = 'A PRESENT FOR YOU';
 
-    $hyperlink = 'http://192.168.68.109/nbagWeb?lang='.$lang.'&p=re&uid='.$uid;
+    $hyperlink = 'nbagWeb?lang='.$lang.'&p=re&uid='.$uid;
     $mail->Body    = '<html>
     <body style="padding:0px;margin:0px; width:100%; height:100%;">
         <div style="width:100%;height:100%;">
