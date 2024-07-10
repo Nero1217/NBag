@@ -1,0 +1,27 @@
+.content{
+  height: auto;
+  background-color: #f6f6f6;
+  border: 1px solid black;
+}
+.title{
+    font-size: 20px;
+}
+.username,.password{
+    justify-content: space-evenly;
+}
+#username,#password{
+    padding: 8px;
+}
+/* login button */
+.form-login-container{
+    width: 100%;
+}
+.form-login{
+    cursor: pointer;
+    width: 112px;
+    height: 52px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
